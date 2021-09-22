@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import CurrentTime from './components/CurrentTime';
+import CurrentDate from './components/CurrentDate';
+import LightSwitch from './components/LightSwitch';
+import Count from './components/Count';
+
+export function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +14,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Count />
         <a
           className="App-link"
           href="https://reactjs.org"
