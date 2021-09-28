@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -53,4 +60,32 @@
 
 .count {
   margin: auto 1rem;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+.length {
+  width: 160px;
+  height: auto;
+}
+
+.invalid input{
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus{
+  border: 1px solid #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+}
+
+input:focus{
+  border: 1px solid #44f334;
 }

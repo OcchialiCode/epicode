@@ -2,14 +2,20 @@ import React from 'react';
 
 export default class Count extends React.Component 
 {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
+        
+        // console.log(props);
         this.state = {
-            count: 0
+            count: props.start || 0
         }
     }
 
+    componentDidMount() 
+    {
+
+    }
     render() 
     {
         return (
