@@ -1,0 +1,13 @@
+1. install git
+
+2. dal terminale andare sulla path del progetto
+
+3. dare il comando: git init 
+
+-------------------il comando git init crea una nuova repository. Si da una unica volta questo comando------------
+
+4. dare il comando: git add .
+
+--------------------aggiuge i file alla repository--------------
+
+5.
