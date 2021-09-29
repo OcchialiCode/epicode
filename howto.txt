@@ -14,10 +14,14 @@
 
 -------serve per far capire quali sono gli aggiornamenti fatti-------------
 
-6. Andiamo su github e creiamo o prendiamo una repository. Una volta creata o entrati in una esistente dobbiamo copiare l'url che ci viene dato. P.S. lascio una immagine esempio dell'url di cui parlo. Così lo trovate quando create una nuova repo sennò dovete andare u CODE(tasto verde) e li dentro trovate il link che è lo stesso che serve per fare un clone.
+6. Andiamo su github e creiamo o prendiamo una repository. Una volta creata o entrati in una esistente dobbiamo copiare l'url che ci viene dato. P.S. lascio una immagine esempio dell'url di cui parlo. Così lo trovate quando create una nuova repo sennò dovete andare su CODE(tasto verde) e li dentro trovate il link che è lo stesso che serve per fare un clone.
 
 7. dare il comando: git remote add origin "url"
 
 ------senza apici url-----
 
-8. 
+8. dare il comando: git push origin master
+
+9. git --set-upsteam origin master
+
+Questo è il base
